@@ -9,6 +9,7 @@
 
 body {
     color: #e0e0e0;
+    min-width: 100%;
 }
 
 header {
@@ -360,6 +361,11 @@ main {
     width: 100%;
 }
 
+#sign-up-end .input-form-end {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
 
 footer {
     background: #000000;
